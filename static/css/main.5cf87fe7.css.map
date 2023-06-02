@@ -1,1 +1,0 @@
-{"version":3,"file":"static/css/main.5cf87fe7.css","mappings":"AAAA,KAEE,YACF,CCHA,aAEI,YAAa,CACb,cACJ","sources":["App.css","components/SingleFilm.css"],"sourcesContent":[".App\n{\n  padding: 10px;\n}",".single-film\r\n{\r\n    display: flex;\r\n    flex-wrap: wrap;\r\n}"],"names":[],"sourceRoot":""}
