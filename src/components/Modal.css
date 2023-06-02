@@ -1,0 +1,98 @@
+.modalBackground {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContainer {
+  width: 600px;
+  height: 500px;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+.titleCloseBtn {
+  display: flex;
+  justify-content: flex-end;
+}
+.titleCloseBtn button {
+  background-color: transparent;
+  border: none;
+  font-size: 40px;
+  cursor: pointer;
+}
+.slider-content {
+  display: flex;
+  align-items: center;
+  /* gap: 20px; */
+}
+.slider-container {
+  position: relative;
+  margin-left: 20px;
+  margin-right: 50px;
+  /* width: 150px; */
+}
+.slider-content {
+  display: flex;
+  align-items: center;
+}
+
+.slider-content h1 {
+  margin-bottom: 10px;
+}
+.slider-content p {
+  margin-bottom: 10px;
+}
+
+.slider-content label {
+  margin-right: 10px;
+}
+
+.slider-content button {
+  font-size: 15px;
+  padding: 5px 10px;
+  background-color: rgba(0, 0, 0, 0.24);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.slider-content button::before {
+  font-size: 15px;
+  padding: 5px 10px;
+  background-color: rgba(0, 0, 0, 0.24);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.slider-content button::after {
+  font-size: 15px;
+  padding: 5px 10px;
+  background-color: rgba(0, 0, 0, 0.24);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.slider-content button:hover {
+  background-color: rgba(0, 0, 0, 0.24);
+}
+.slider-content input {
+  width: 30px;
+  margin: 0px 5px;
+}
+
+.about-product {
+  margin-top: 50px;
+}
+
+.about-product h2 {
+  margin-bottom: 10px;
+}
+
+

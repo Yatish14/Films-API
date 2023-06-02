@@ -1,0 +1,26 @@
+.loader {
+  text-align: center;
+}
+
+.loader img {
+  width: 100px; /* Adjust the size as needed */
+}
+
+.loader p {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.progress-bar {
+  width: 200px;
+  height: 10px;
+  background-color: #ddd;
+  margin: 10px auto;
+  overflow: hidden;
+}
+
+.progress {
+  height: 100%;
+  background-color: #4caf50;
+  width: 0;
+}
